@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Freeman&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="menu-bar">
+        <nav>
+            <div class="name-image">
+                <img src="https://picsum.photos/200/200" id="profile-pic" alt="">
+                <h2>Nathan Boles</h2>
+            </div>
+            <div class="list-items">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">What I Do</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- cannot figure out how to make these stay in the bottom of the scrollable area -->
+            <div class="social-icons">
+                <a href=""><img src="./icons8-linkedin-30.png" alt=""></a>
+                <a href=""><img src="./icons8-github-30.png" alt=""></a>
+            </div>
+        </nav>
+    </div>
+
+    <section class="hero-container" id="home">
+        <div class="overlay"></div>
+        <img src="./your-hero-image.png" alt="Hero Image" class="hero-image">
+        <div class="hero-text">
+            <p id="welcome">Welcome!</p>
+            <span id="typing-text"></span>
+            <p id="based">based in Toronto, Ontario</p>
+        </div>
+        <div class="contact">
+            <p><a href="#">Contact</a></p>
+        </div>
+    </section>
+
+    <section class="about-me-container" id="about">
+        <div class="about-me-wrapper">
+            <div class="title-wrapper">
+                <div class="about-title">
+                    <h3>Get To Know Me</h3>
+                    <hr>
+                </div>
+                <div class="title-back">
+                    <p>ABOUT ME</p>
+                </div>
+            </div>
+            <div class="about-info">
+                <div class="infotext">
+                    <h4>I'm <strong>Nathan Boles</strong>, mainly a Web Developer.</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis quasi illo minima nisi beatae
+                        perspiciatis. Cumque, unde error laudantium aperiam corrupti culpa eaque aspernatur quos
+                        praesentium quaerat, vel placeat, facere consectetur sit! Eos sapiente magnam ducimus id
+                        aspernatur eveniet ipsam doloribus. Laboriosam harum dolorem quasi corrupti quia, doloribus
+                        tempora iste.
+                    </p>
+                    <p>Cumque, unde error laudantium aperiam corrupti culpa eaque aspernatur quos praesentium quaerat,
+                        vel placeat, facere consectetur sit! Eos sapiente magnam ducimus id aspernatur eveniet ipsam
+                        doloribus. Laboriosam harum dolorem quasi corrupti quia, doloribus tempora iste</p>
+                </div>
+                <div class="information">
+                    <div class="name-info">
+                        <p class="info-bold">Name: </p>
+                        <p>Nathan Boles</p>
+                    </div>
+                    <hr>
+                    <div class="email-info">
+                        <p class="info-bold">Email: </p>
+                        <p>nathanboles24@gmail.com</p>
+                    </div>
+                    <hr>
+                    <div class="age-info">
+                        <p class="info-bold">Age: </p>
+                        <p>35</p>
+                    </div>
+                    <hr>
+                    <div class="location-info">
+                        <p class="info-bold">Location: </p>
+                        <p>Toronto, Ontario</p>
+                    </div>
+                    <hr>
+                    <a href="">Download Resume</a>
+                </div>
+            </div>
+        </div>
+        <div class="tech-title">
+            <h3>Current Technologies</h3>
+        </div>
+        <div class="tech-wrapper">
+            <div class="tech-icons">
+                <div class="item">
+                    <div class="icon">
+                        <img src="./icons8-html-100(1).png" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>HTML</h5>
+                    </div>
+                </div>
+                <hr>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./icons8-css-100.png" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>CSS</h5>
+                    </div>
+                </div>
+                <hr>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./icons8-js-100.png" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>JavaScript</h5>
+                    </div>
+                </div>
+                <hr>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./icons8-react-100.png" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>React</h5>
+                    </div>
+                </div>
+    </section>
+
+    <section class="whatIDo" id="services">
+        <div class="services">
+            <div class="wid-wrapper">
+                <div class="wid-title">
+                    <h3>Services</h3>
+                    <hr>
+                </div>
+                <div class="title-back-2-s">
+                    <p>WHAT I DO</p>
+                </div>
+            </div>
+            <div class="service-info">
+                <div class="service-icon">
+                    <img src="./icons8-web-developer-100(1).png" alt="">
+                </div>
+                <div class="service-container">
+                    <div class="service-title">
+                        <h6>Front End Web Development</h6>
+                    </div>
+                    <div class="service-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit error deserunt hic qui
+                            temporibus cumque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-info">
+                <div class="service-icon">
+                    <img src="./icons8-3d-model-100(1).png" alt="">
+                </div>
+                <div class="service-container">
+                    <div class="service-title">
+                        <h6>3D Modeler</h6>
+                    </div>
+                    <div class="service-text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur tenetur maxime
+                            veritatis. Fuga, atque optio.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-info">
+                <div class="service-icon">
+                    <img src="./icons8-business-100(1).png" alt="">
+                </div>
+                <div class="service-container">
+                    <div class="service-title">
+                        <h6>Freelancer</h6>
+                    </div>
+                    <div class="service-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus assumenda
+                            aliquam eligendi veritatis illo.</p>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-container">
+            <div class="portfolio-title">
+                <h3>Recent Work</h3>
+                <hr>
+            </div>
+            <div class="title-back-2">
+                <p>PORTFOLIO</p>
+            </div>
+
+
+
+
+            <div class="filter-menu">
+                <button class="filter-btn active" onclick="filterSelection('all')">All</button>
+                <button class="filter-btn" onclick="filterSelection('webdev')">Web Dev</button>
+                <button class="filter-btn" onclick="filterSelection('ux')">UX</button>
+            </div>
+
+            <div class="portfolio-bin">
+                <div class="portfolio-item webdev">
+                    <img src="./header.png" alt="Project 1">
+                </div>
+                <div class="portfolio-item webdev">
+                    <img src="./checkout.png" alt="Project 2">
+                </div>
+                <div class="portfolio-item ux">
+                    <img src="./code.png" alt="Project 3">
+                </div>
+                <div class="portfolio-item ux">
+                    <img src="./profilecard.png" alt="Project 4">
+                </div>
+                <div class="portfolio-item ux">
+                    <img src="./code.png" alt="Project 5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-info" id="contact">
+        <div class="contact-title-container">
+            <div class="contact-title-wrapper">
+                <div class="contact-title">
+                    <h3>Contact</h3>
+                    <hr>
+                </div>
+                <div class="title-back-4">
+                    <p>GET IN TOUCH</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form-contact-container">
+            <div class="contact-form">
+                <h2>Send A Message</h2>
+                <label for="name">Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Your Name..." required>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your Email..." required>
+
+                <label for="message">Message</label>
+                <textarea id="text" name="message" placeholder="Your Message..." required></textarea>
+            </div>
+            <div class="send-message">
+                <p><a href="#">Send</a></p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
